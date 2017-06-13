@@ -1,0 +1,334 @@
+
+
+.informacion{
+ background-color:#585858;
+}
+.panel{
+bottom: 50px;
+background-color:#E0ECF8;
+width:30px;
+height:650px;
+}
+.panel2{
+bottom: 50px;
+background-color:#E0ECF8;
+width:30px;
+height:650px;
+}
+.blanco{
+    background-color: white;
+}
+.centro{
+background-color:#E0ECF8;
+width:100%;
+height:400px;
+}
+.anuncio{
+ font-size:50px;
+ padding-left: 80px;
+}
+.logo{
+ 
+}
+.logo2{
+ 
+}
+
+.textoCabecera{
+    font-size: 14px;
+    
+}
+
+button{
+ background: transparent;
+    color: black;
+     font: small-caps 100%/200% serif;
+    /*width: 150px;*/
+    height:40px;
+    font-size:25px;
+    left:-100px;
+}
+.DimensionImagen{
+	width:100%;
+	height:68%
+}
+
+.fondoImagen{
+  background-image: url("ciu.png");
+
+}
+
+
+.footer{
+width:100%;
+height:200px;
+background-color:#585858;
+color:white;
+}
+.monitor{
+/*
+	top:5px;
+	right: 5px;
+	bottom: 10px;
+	position: absolute;
+	*/
+	width:98%;
+   height:60%;
+   /*
+   position:absolute;
+   top:50%;left:50%;
+   */
+}
+.video{
+
+   width:88%;
+   height:65%;
+   position:absolute;
+   top:5%;left:5%;
+  /* padding: 10px 10px;*/
+}
+
+.pa1{
+/*	background-color:#E0ECF8;*/
+}
+.pa2{
+/*	background-color:#E0ECF8;*/
+}
+.pa3{
+/*	background-color:#E0ECF8;*/
+}
+
+.ce{
+	/*background-color:#E0ECF8;*/
+	height:350px;
+}
+.color{
+    background: transparent;
+	/*background-color:#E0ECF8;*/
+	
+}
+
+.ima > div{
+   /* position: relative;
+			bottom:500px;
+			color:#fff;
+			background-color:#000;
+			padding:200px 10px;
+			opacity:0.3;
+			font-weight:normal;
+            font-size: 20px;
+    */
+   
+   position:absolute;
+   top:0%;
+   left:0%;
+  /*  background-color:black;*/
+    color:#fff;
+  /*padding: 50px 70px;*/
+    width: 100%;
+    height: 10%;
+  /*  opacity: 0.6;*/
+    font-size: 40px;
+     font: small-caps 100%/200% serif;
+     padding-left:15%;
+	 padding-top:5%;
+}
+.botonSu{
+    background: transparent; 
+    color:grey;
+    font-size:20px;
+    position:absolute;
+    left: 30%;
+}
+.icog{
+   position: absolute;
+   left: 50%;
+   top:83%;
+}
+.icol{
+   position: absolute;
+   left: 40%;
+   top:83%;
+}
+.icof{
+   position: absolute;
+   left: 30%;
+   top:83%;
+}
+.ayuda{
+position:absolute;
+top:8%;
+left:80%;	
+width:20%;
+height:8%;
+
+border-radius: 9px 9px 9px 9px;
+-moz-border-radius: 9px 9px 9px 9px;
+-webkit-border-radius: 9px 9px 9px 9px;
+border: 0px solid #000000;
+}
+
+.tituloMini{
+    font-size: 10px;
+}
+.cuadro{
+	position:relative;
+	top:50%;
+}
+
+.iconoL{
+position:absolute;
+top:10%;	
+}
+
+.boton{
+   background: transparent; 
+  
+   
+    color:white;
+	 
+    /*position:relative;
+    top:50px;
+    left:0px;
+   /*  font: small-caps 100%/200% serif;*/
+   /* width: 150px;
+    height: 40px;
+*/
+}
+.boton:hover{
+background-color:blue;
+}
+.letras{
+    font-size: 10px;
+}
+
+.lineas{
+position: absolute;
+top:500%;
+left:15%;	
+ height: 5px;
+ width: 7%;
+  background-color:white;
+}
+.rojo{
+
+ height: 5px;
+ width: 30%;
+  background-color:red; 
+}
+
+.textoMedio{
+   font-size: 20px;
+   font-weight: 500;
+}
+
+.ln{
+position: absolute;
+top:500%;
+left:15%;	
+ height: 5px;
+ width: 2%;
+  background-color:blue;
+  
+ 
+}
+
+.ln:hover{
+     animation-duration: 1s;
+  animation-name: slidein2;
+   animation-iteration-count:infinite;
+  
+}
+@keyframes slidein2 {
+  from {
+    margin-left: 50%;
+    width: 20%
+  }
+  75% {
+  font-size: 300%;
+  color:white;
+  margin-left: 25%;
+  width: 5%;
+}
+
+  to {
+    margin-left: 1%;
+    width: 5%;
+  }
+}
+
+
+
+.panelColor{
+/*	background-color:#E0ECF8;*/
+	
+}
+
+.ta{
+    
+	height:50;
+}
+
+.caracter{
+ font-size:30px;
+}
+A: hover{
+	color:red;
+}
+.cuadro{
+	width:20px;
+}
+
+.logo:hover{
+	-webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-o-transform:rotate(90deg);
+}
+
+.rota:hover{
+	-webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-o-transform:rotate(90deg);
+}
+
+.texto:hover{
+	/*-webkit-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+*/
+animation-duration: 1s;
+  animation-name: slidein;
+   animation-iteration-count:infinite;
+  animation-direction: alternate;
+}
+
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+  75% {
+  font-size: 300%;
+  color:white;
+  margin-left: 25%;
+  width: 150%;
+}
+
+  to {
+    margin-left: 1%;
+    width: 100%;
+  }
+}
+
+.titulillo{
+	font-size:50px;
+}
+.titulo{
+	font-family: 'Lato', sans-serif;
+	font-size:40px;
+}
+.lato{
+/*	font-family:'Lato', sans-serif;*/
+font-weight: bold;
+}

@@ -1,0 +1,36 @@
+.texto:hover{
+	/*-webkit-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+*/
+animation-duration: 1s;
+  animation-name: slidein;
+   animation-iteration-count:3;
+  animation-direction:left;
+ 
+}
+
+
+@keyframes slidein {
+  from {
+    margin-left: 50%;
+    width: 100%
+  }
+  75% {
+  font-size: 300%;
+  color:blue;
+  margin-left: 25%;
+  width: 150%;
+}
+
+  to {
+    margin-left: 2%;
+    width: 100%;
+  }
+}
+
+.logo:hover{
+	-webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-o-transform:rotate(90deg);
+}
